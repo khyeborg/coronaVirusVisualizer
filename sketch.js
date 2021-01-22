@@ -24,7 +24,7 @@ let numberOfSections = 8;
 let sectionsArray = [];
 
 function setup() {
-   let canvas = createCanvas(windowWidth, 600);
+   let canvas = createCanvas(windowWidth, 500);
    canvas.parent('sketch_holder');
    noStroke();
    noiseDetail(24);
